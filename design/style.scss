@@ -36,10 +36,7 @@ body {
 	button {
 		padding: 10px;
 		width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-top: 4%;
-		margin-bottom: 4%;
+		margin: 4% 10%;
 		font-weight: 700;
 		font-family: 'Red Hat Display';
 		background-color: $bright;
@@ -61,8 +58,8 @@ h2 {
 	font-weight: $hvy-wt;
 	font-size-adjust: 0.6;
 	padding-top: 20px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 #vibe {
@@ -86,7 +83,7 @@ h2 {
 	background-color: #f8f9fe;
 	border-radius: 14px;
 
-	margin: 3% 10% 3.5% 10%;
+	margin: 3% 10% 3.5%;
 	padding: 5%;
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -113,9 +110,11 @@ h2 {
 	#plan {
 		padding-bottom: 2.5%;
 	}
+
 	p {
 		margin: 0;
 	}
+
 	a {
 		position: absolute;
 		margin-left: auto;

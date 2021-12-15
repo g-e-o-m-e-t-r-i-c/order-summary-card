@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card
+# Frontend Mentor - Order Summary Card
 
 ![Design preview for the Order Summary Card coding challenge](./design/desktop-preview.jpg)
 
