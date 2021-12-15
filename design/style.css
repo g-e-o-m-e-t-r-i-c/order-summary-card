@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+:root {
+	--pale: hsl(225, 100%, 94%);
+	--bright: hsl(245, 75%, 52%);
+	--very-pale: hsl(225, 100%, 98%);
+	--desaturated: hsl(224, 23%, 55%);
+	--dark: hsl(223, 47%, 23%);
+	--font: 'Red Hat Display';
+	--norm-wt: 500;
+	--med-wt: 700;
+	--hvy-wt: 900;
+}
+
+body {
+	background-color: var(--dark);
+	font-family: 'Red Hat Display';
+}
+
+#main {
+	align-items: center;
+	text-align: center;
+	width: 25%; /* takes 25% the width of the screen */
+	height: 75%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	color: var(--dark);
+	border-radius: 18px;
+	overflow: hidden;
+}
+
+#main h2 {
+	font-weight: var(--hvy-wt);
+	font-size-adjust: 0.6;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#vibe {
+	min-width: 100%;
+	flex-shrink: 0;
+}
+
+#main p {
+	font-size: 16px;
+}
+
+#plan {
+	font-weight: var(--med-wt);
+}
+
+#desc {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+#info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #f8f9fe;
+	border-radius: 14px;
+	margin-top: 3%;
+	margin-bottom: 3.5%;
+}
+
+#info a {
+	color: var(--bright);
+	font-weight: 700;
+	text-decoration: none;
+	float: right;
+	position: right;
+	margin-left: auto;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#info a:hover {
+	cursor: pointer;
+	color: #8e85dd;
+}
+
+#para > #plan {
+	padding-bottom: 2.5%;
+}
+
+#para p {
+	margin: 0;
+}
+
+#para a {
+	position: absolute;
+	margin-left: auto;
+	margin-right: 0;
+	padding-right: 0;
+	align-self: stretch;
+}
+
+#music {
+	padding-right: 5%;
+}
+
+#main button {
+	padding: 10px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	font-weight: 700;
+	font-family: 'Red Hat Display';
+	background-color: var(--bright);
+	color: #fff;
+	border-style: none;
+	border-radius: 12px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	/* #e7e5fb - shadow color */
+	filter: drop-shadow(0 2% 2% #e7e5fb);
+}
+
+#main button:hover {
+	cursor: pointer;
+	background-color: #766cf1;
+}
+
+#cancel {
+	text-decoration: none;
+	font-weight: 700;
+	color: var(--desaturated);
+}
+
+#cancel:hover {
+	color: var(--dark);
+	cursor: pointer;
+}
