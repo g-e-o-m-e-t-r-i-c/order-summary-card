@@ -1,6 +1,5 @@
 {
 	"dependencies": {
-		"prettier": "^2.5.1",
-		"sass": "^1.45.0"
+		"prettier": "^2.5.1"
 	}
 }
